@@ -1,0 +1,96 @@
+@media screen and (max-width:480px){
+    .buttonDetailPage{
+        
+        background-color: #2020bc;
+        color: white !important;;
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+    .image{
+        width: 100px;
+        text-align: center;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .description{
+        font-size: 10px;
+    }
+    .maindiv{
+        text-align: center;
+    }
+    .checkOut{
+        background-color: orangered;
+        padding: 10px 40px;
+        color:white;
+        border-radius: 10px;
+    }
+    .increment{
+        padding: 2px 5px;
+        background-color: rgb(85, 196, 85);
+        color:white !important;
+        border-radius: 5px;
+    }
+    .decrement{
+        padding: 2px 5px;
+        background-color: rgb(5, 5, 5);
+        color:white !important;
+        border-radius: 5px;
+    }
+    .delete{
+        padding: 2px 5px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 5px;
+        color: white;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width:480px){
+    .buttonDetailPage{
+        background-color: #000000;
+        color: white !important;;
+        padding: 11px 100px;
+        border-radius: 5px;
+    }
+    .image{
+        width: 180px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    .checkOut{
+        background-color: rgb(0, 0, 0);
+        padding: 30px 50px;
+        width: 400px;
+        color:white;
+        border-radius: 10px;
+    }
+    .increment{
+        padding: 3px 15px;
+        background-color: rgb(85, 196, 85);
+        color:white !important;
+        border-radius: 5px;
+    }
+    .decrement{
+        padding: 4px 15px;
+        background-color: rgb(5, 5, 5);
+        color:white !important;
+        border-radius: 5px;
+    }
+    .delete{
+        padding: 2px 5px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 5px;
+        color: white;
+        margin-left: 10px;
+    }
+}
+
+.image:hover{
+    scale:1.2;
+    transition: all 0.3s ease-in-out;
+    cursor:grab
+}
